@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "jigsaw-proxy": {
+      "development": {
+        "fallback": "jigsaw-proxy.vercel.app"
+      }
+    },
+    "jigsaw-app": {
+      "routing": [
+        {
+          "paths": [/* add paths here */]
+        }
+      ]
+    },
+    "jigsaw-docs": {
+      "routing": [
+        {
+          "paths": [/* add paths here */]
+        }
+      ]
+    }
+  }
+}
